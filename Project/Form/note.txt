@@ -1,0 +1,3 @@
+- membuat form contact us dengan tag form, label, input, textarea
+- membuat text error important dan require manual tiap input
+- membuat perintah untuk menampilkan hasil input dibawah form

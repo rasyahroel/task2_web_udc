@@ -1,0 +1,5 @@
+- membuat database dan tabel
+- membuat file khusus koneksi db
+- membuat halaman dengan tag tabel dan form create data
+- membuat page edit dan action edit
+- membuat action delete

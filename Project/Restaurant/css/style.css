@@ -1,0 +1,164 @@
+body {
+    font-family: Tahoma;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+#nav {
+    text-align: center;
+}
+
+ul {
+    background-color: #a6a3a6;
+    margin-left: 0;
+}
+
+li {
+    /* box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5); */
+    background-color: #312c31;
+    display: inline;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+li:hover {
+    background-color: #a6a3a6;
+}
+
+a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.index,
+.team,
+.menu,
+.dish,
+.contact {
+    text-align: center;
+    margin: 5%;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 30% 30%;
+    text-align: center;
+    /* Create a 3-column layout */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* Add spacing between profile cards */
+    gap: 1%;
+}
+
+.profile {
+    margin-top: 5%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    width: 20%;
+}
+
+
+/* .imageProfile {
+    top: 0;
+    bottom: 0;
+} */
+
+.content {
+    background-color: #312c31;
+    padding-bottom: 2%;
+    color: #efefef;
+    text-align: center;
+}
+
+
+/* #footer {
+    background-color: #f6b366 !important;
+} */
+
+.phone,
+.location,
+.hours {
+    float: left;
+    margin-top: 1%;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    padding: 0.66%;
+}
+
+.phone {
+    margin-left: 0;
+}
+
+.hours {
+    margin-right: 0;
+}
+
+.open {
+    color: springgreen;
+}
+
+.close {
+    columns: red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-contact {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-contact label,
+.form-contact input,
+.form-contact textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-contact input[type="text"],
+.form-contact input[type="email"],
+.form-contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-contact textarea {
+    resize: vertical;
+}
+
+.form-contact input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-contact input[type="submit"] {
+    background-color: #312c31;
+    color: #efefef;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5%;
+}
+
+.form-contact input[type="submit"]:hover {
+    background-color: #a6a3a6;
+}

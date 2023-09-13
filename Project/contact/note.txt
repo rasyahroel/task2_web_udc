@@ -1,0 +1,1 @@
+Menjelaskan bagaimana mengirim result form ke email
