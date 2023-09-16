@@ -8,7 +8,7 @@ while ($i <= 10) {
 $kata = "Halo";
 $count = 0;
 while ($count <= 10) {
-    echo $kata;
+    echo "$kata ";
     $count++;
 }
 echo "\n";

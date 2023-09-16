@@ -4,6 +4,6 @@
 // $b =  $a . "Selamat Pagi";
 // echo $b;
 
-$a = "Halo";
+$a = "Halo ";
 $a .= "Selamat Pagi";
 echo $a;

@@ -6,4 +6,5 @@
 // echo tambah(10, 20);
 
 require 'function.php';
+echo "\n\n";
 echo tambah(10, 20);

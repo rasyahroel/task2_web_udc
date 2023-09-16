@@ -3,14 +3,17 @@
 
 $motor = array('supra', 'jupiter', 'mio', 'vario');
 print_r($motor);
-echo $motor[0];
 echo "\n";
+
+echo $motor[0];
+echo "\n\n";
 
 // menggunakan for
 $jumlah = count($motor);
 for ($i = 0; $i < $jumlah; $i++) {
     echo $motor[$i] . "\n";
 }
+echo "\n";
 
 // mengurutkan array
 $asc = sort($motor);        // urut ascending
@@ -18,7 +21,7 @@ $desc = ksort($motor);      // urut descending
 print_r($asc);
 echo "\n";
 print_r($desc);
-echo "\n";
+echo "\n\n";
 
 // array asosiatif
 $data = array(
@@ -26,12 +29,13 @@ $data = array(
     'kamu' => 12
 );
 echo "aku berumur " . $data["aku"];
-echo "\n";
+echo "\n\n";
 
 // menggunakan looping foreach
 foreach ($data as $subject => $age) {
     echo $subject . " berumur " . $age . "\n";
 }
+echo "\n";
 
 // multidimensional array
 $moustaches = array(
